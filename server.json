@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cowerxdev/apitoolcalls",
+  "title": "API Tool Calls",
+  "description": "QR codes, page Markdown, YouTube captions, data sources, and Columbus résumé skill gaps.",
+  "version": "0.1.0",
+  "websiteUrl": "https://apitoolcalls.com/agent.html",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apitoolcalls.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional full Bearer header for an existing API Tool Calls key; omit for 20 free calls per IP daily.",
+          "format": "string",
+          "isRequired": false,
+          "isSecret": true,
+          "placeholder": "Bearer ot_live_..."
+        }
+      ]
+    }
+  ]
+}
