@@ -1,14 +1,16 @@
 # Listing preparation — local draft
 
+[API Tool Calls](https://apitoolcalls.com): connect once to one small MCP door at https://apitoolcalls.com/mcp. Its 3 meta tools find, describe and call any of our 50 tools, with under 1k tokens of definitions at connection time however many tools ship. Directory scanners and clients that need the full tool listing can read https://apitoolcalls.com/mcp?tools=all.
+
 Research date: **2026-09-29**. The steps below describe a future submission;
 none were executed. Every row distinguishes documented behavior from missing
 information. No public GitHub repository, claimed namespace or listing is assumed.
 
-Prepared metadata: name **API Tool Calls**, slug **apitoolcalls**, version **0.1.0**,
+Prepared metadata: name **[API Tool Calls](https://apitoolcalls.com)**, slug **apitoolcalls**, version **0.1.0**,
 homepage `https://apitoolcalls.com/agent.html`, remote URL
 `https://apitoolcalls.com/mcp`, transport `streamable-http`.
-Short description: “SVG QR codes, public YouTube captions, and résumé skill gaps
-for Columbus, Ohio job families.” Authentication: none for 20 calls/day/IP;
+Short description: “50 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.”
+Full-list scanner URL: `https://apitoolcalls.com/mcp?tools=all`. Authentication: none for 20 calls/day/IP;
 optional `Authorization: Bearer ot_live_...` for an existing subscription key.
 The skill entry point is `apitoolcalls/SKILL.md`; registry metadata is `server.json`.
 
@@ -33,10 +35,10 @@ The [official requirements](https://github.com/modelcontextprotocol/registry/blo
 
 1. Sign in at [smithery.ai/new](https://smithery.ai/new); the public entry point redirects to account login.
 2. Use an owned namespace (proposed `cowerxdev`, availability unverified), with server slug `apitoolcalls`. [Namespaces](https://smithery.ai/docs/concepts/namespaces) documents ownership and the free Hobby allowance of three namespaces.
-3. Enter the public HTTPS MCP URL and complete the URL publishing flow. Smithery scans tools/prompts/resources automatically for public servers. [Publishing guide](https://smithery.ai/docs/build/publish).
+3. Enter `https://apitoolcalls.com/mcp?tools=all` as the public HTTPS MCP URL and complete the URL publishing flow. Smithery scans tools/prompts/resources automatically for public servers. [Publishing guide](https://smithery.ai/docs/build/publish).
 
 That guide requires Streamable HTTP and OAuth when authentication is required.
-The public free mode of API Tool Calls fits the documented URL route; optional static-key
+The public free mode of [API Tool Calls](https://apitoolcalls.com) fits the documented URL route; optional static-key
 forwarding through Smithery is unverified. The guide documents automatic scans
 and an optional vendor-verification checklist, with no manual-review timing or
 separate submission price. No deployment to Smithery is required for the URL route.
@@ -45,7 +47,7 @@ separate submission price. No deployment to Smithery is required for the URL rou
 ## Glama
 
 1. On [Glama connectors](https://glama.ai/mcp/connectors), choose Add Server / Add MCP Server → Connector.
-2. Enter API Tool Calls, the description, and the HTTPS Streamable HTTP URL. Test credentials are optional. Only healthy connectors are indexed. [Glama FAQ](https://glama.ai/mcp/faq).
+2. Enter [API Tool Calls](https://apitoolcalls.com), the description, and `https://apitoolcalls.com/mcp?tools=all` as the HTTPS Streamable HTTP URL. Test credentials are optional. Only healthy connectors are indexed. [Glama FAQ](https://glama.ai/mcp/faq).
 3. Choose Claim ownership and sign in. Verify the domain with the displayed TXT record at `_glama-claim.<domain>` or JSON at `/.well-known/glama.json`. A Registry-linked `io.github.cowerxdev` identity can use GitHub verification; an org also needs the Glama GitHub App installed. [Glama FAQ](https://glama.ai/mcp/faq).
 
 The FAQ does not state a submission fee or the initial form's login requirement.
@@ -55,7 +57,7 @@ Claiming requires login.
 ## mcp.so
 
 1. Open the [Remote Server submission form](https://mcp.so/submit?type=remote-server).
-2. Enter `https://apitoolcalls.com/mcp` in Remote endpoint URL and API Tool Calls in Name; both fields are required.
+2. Enter `https://apitoolcalls.com/mcp` in Remote endpoint URL and [API Tool Calls](https://apitoolcalls.com) in Name; both fields are required.
 3. The current form's action is **Pay and submit automatically**, with a $39 one-time fee and immediate publication without review. This is a paid route; no free option is shown on this form. [Submission form](https://mcp.so/submit?type=remote-server).
 
 The site's [sign-in page](https://mcp.so/sign-in) offers email/password login and
@@ -71,7 +73,7 @@ form. No payment, account creation or submission was attempted.
 Publication validates owner access, metadata and files, then starts automated
 security checks; releases can remain unavailable during review. No review SLA
 or submission fee is stated there. Skills have no per-skill pricing; this does
-not change the external API Tool Calls subscription. [Publishing](https://docs.openclaw.ai/clawhub/publishing),
+not change the external [API Tool Calls](https://apitoolcalls.com) subscription. [Publishing](https://docs.openclaw.ai/clawhub/publishing),
 [CLI](https://docs.openclaw.ai/clawhub/cli).
 
 ## Hermes Skills Hub
