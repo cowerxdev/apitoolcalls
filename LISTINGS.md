@@ -1,6 +1,6 @@
 # Listing preparation — local draft
 
-[API Tool Calls](https://apitoolcalls.com): connect once to one small MCP door at https://apitoolcalls.com/mcp. Its 3 meta tools find, describe and call any of our 50 tools, with under 1k tokens of definitions at connection time however many tools ship. Directory scanners and clients that need the full tool listing can read https://apitoolcalls.com/mcp?tools=all.
+[API Tool Calls](https://apitoolcalls.com): connect once to one small MCP door at https://apitoolcalls.com/mcp. Its 3 meta tools find, describe and call any of our 76 tools, with under 1k tokens of definitions at connection time however many tools ship. Directory scanners and clients that need the full tool listing can read https://apitoolcalls.com/mcp?tools=all.
 
 Research date: **2026-09-29**. The steps below describe a future submission;
 none were executed. Every row distinguishes documented behavior from missing
@@ -9,7 +9,7 @@ information. No public GitHub repository, claimed namespace or listing is assume
 Prepared metadata: name **[API Tool Calls](https://apitoolcalls.com)**, slug **apitoolcalls**, version **0.1.0**,
 homepage `https://apitoolcalls.com/agent.html`, remote URL
 `https://apitoolcalls.com/mcp`, transport `streamable-http`.
-Short description: “50 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.”
+Short description: “76 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.”
 Full-list scanner URL: `https://apitoolcalls.com/mcp?tools=all`. Authentication: none for 20 calls/day/IP;
 optional `Authorization: Bearer ot_live_...` for an existing subscription key.
 The skill entry point is `apitoolcalls/SKILL.md`; registry metadata is `server.json`.
