@@ -1,0 +1,16 @@
+{
+  "name": "apitoolcalls",
+  "owner": { "name": "Cowerx" },
+  "metadata": {
+    "description": "API Tool Calls Claude Code plugin marketplace",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "apitoolcalls",
+      "source": "./",
+      "description": "89 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
+      "version": "0.2.0"
+    }
+  ]
+}

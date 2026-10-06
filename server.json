@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.cowerxdev/apitoolcalls",
   "title": "API Tool Calls",
-  "description": "76 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
-  "version": "0.2.2",
+  "description": "89 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
+  "version": "0.2.3",
   "websiteUrl": "https://apitoolcalls.com/agent.html",
   "remotes": [
     {

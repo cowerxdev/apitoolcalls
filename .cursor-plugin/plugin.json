@@ -1,0 +1,9 @@
+{
+  "name": "apitoolcalls",
+  "version": "0.2.0",
+  "description": "89 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
+  "homepage": "https://apitoolcalls.com/",
+  "license": "MIT",
+  "skills": "skills/",
+  "mcpServers": ".mcp.json"
+}
