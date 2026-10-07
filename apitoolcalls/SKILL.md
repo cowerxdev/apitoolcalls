@@ -5,7 +5,7 @@ description: "Describes remote MCP tools and connection settings for API Tool Ca
 
 # [API Tool Calls](https://apitoolcalls.com)
 
-[API Tool Calls](https://apitoolcalls.com): connect once to one small MCP door at https://apitoolcalls.com/mcp. Its 3 meta tools find, describe and call any of our 89 tools, with under 1k tokens of definitions at connection time however many tools ship. Directory scanners and clients that need the full tool listing can read https://apitoolcalls.com/mcp?tools=all.
+[API Tool Calls](https://apitoolcalls.com): connect once to one small MCP door at https://apitoolcalls.com/mcp. Its 3 meta tools find, describe and call any of our 90 tools, with under 1k tokens of definitions at connection time however many tools ship. Directory scanners and clients that need the full tool listing can read https://apitoolcalls.com/mcp?tools=all.
 
 ```text
 search_tools(query="qr code")
@@ -63,6 +63,7 @@ Command line by [API Tool Calls](https://apitoolcalls.com) (Cowerx), Python 3.8+
 | `long_divide` | Divide decimal strings exactly with long division steps, an integer quotient and remainder. See terminating, repeating or truncated decimals in your browser. |
 | `make_barcode` | Make an SVG barcode. Validates retail check digits and lengths. GS1-128 and GS1 DataMatrix accept bracketed (01)GTIN(17)YYMMDD(10)lot; use make_qr for QR codes. |
 | `make_qr` | Make an SVG QR code for text, a URL, or Wi-Fi network details. |
+| `make_run_loop` | Make walking/running loops that start and end at one point, each within 3% of the target distance. Returns Google Maps links and an encoded polyline. Routes and map data © OpenStreetMap contributors (ODbL); routing and elevation: Valhalla on FOSSGIS servers. |
 | `margin_calculator` | Calculate cost, selling price, gross profit, margin percentage and markup percentage from two independent values including cost or price. |
 | `mass_volume_convert` | Convert mass to volume or reverse with named units and either a USDA FoodData Central ingredient cup-weight preset or an entered positive density in g/mL. |
 | `mulch_calculator` | Calculate mulch layer volume and whole 2 cu ft and 3 cu ft bag counts from rectangle dimensions, circle diameter or total area and depth in inches. |
