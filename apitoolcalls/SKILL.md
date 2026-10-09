@@ -13,8 +13,14 @@ get_tool_schema(name="make_qr")
 call_tool(name="make_qr", arguments={"text":"https://example.com"})
 ```
 
-Remote MCP endpoint: `https://apitoolcalls.com/mcp`, Streamable HTTP.
-Command line by [API Tool Calls](https://apitoolcalls.com) (Cowerx), Python 3.8+: install from `https://apitoolcalls.com/apitc`, then `apitc search "qr code"` and `apitc call make_qr --arg text=https://example.com -o qr.json`; no key uses the free allowance, or set `APITC_KEY` / `--key` for an existing key.
+## Connect
+
+- Remote MCP endpoint: `https://apitoolcalls.com/mcp`, Streamable HTTP.
+- Command line by [API Tool Calls](https://apitoolcalls.com) (Cowerx), Python 3.8+: install from `https://apitoolcalls.com/apitc`, then `apitc search "qr code"` and `apitc call make_qr --arg text=https://example.com -o qr.json`.
+- No key uses the free allowance, or set `APITC_KEY` / `--key` for an existing key.
+
+## Tools
+
 | Tool | Function |
 | --- | --- |
 | `apa_citation_generator` | Format an APA reference and in-text citations from entered source metadata. |
@@ -109,6 +115,8 @@ Command line by [API Tool Calls](https://apitoolcalls.com) (Cowerx), Python 3.8+
 | `z_score` | Compute the standardized z score from an entered value, mean and positive standard deviation. |
 
 Input schemas come from `get_tool_schema(name=...)` on `/mcp`, or the full listing at `https://apitoolcalls.com/mcp?tools=all`.
+
+## Limits and errors
 
 Without an [API Tool Calls](https://apitoolcalls.com) key: 20 tool calls per IP per UTC day, shared across tools. Free calls also share a global ceiling of 2,000 per UTC day; recall has no separate tool cap.
 Agent calls have no [API Tool Calls](https://apitoolcalls.com) charge; no key is sold. The proofreader requires your OpenRouter key and bills the provider request to you. Existing keys still work: 1,000 calls per UTC month, shared across tools.

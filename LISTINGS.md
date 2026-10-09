@@ -69,6 +69,9 @@ form. No payment, account creation or submission was attempted.
 1. Install the ClawHub CLI (`npm i -g clawhub`). Run `clawhub login`, visit its printed verification URL and approve after GitHub sign-in. An existing API token is also supported. [CLI guide](https://docs.openclaw.ai/clawhub/cli).
 2. Prepare this pack's `apitoolcalls/` folder. ClawHub accepts `SKILL.md`, extracts the description, uses semver, and distributes published skills under MIT-0. It permits external paid-service integrations when instructions explain the cost/account; optional variables must be declared optional if added. [Skill format](https://docs.openclaw.ai/clawhub/skill-format).
 3. From the pack directory, submit with `clawhub skill publish ./apitoolcalls --slug apitoolcalls --name "API Tool Calls" --version 0.1.0`. Add `--owner cowerxdev` only if that publisher handle exists and the login has access. [Publishing guide](https://docs.openclaw.ai/clawhub/publishing).
+4. A new skill's first publish is scored (ClawHub `convex/lib/skillQuality.ts`): accounts under 30 days need 72 of 100, and fewer than 2 headings (-10), fewer than 3 bullet lines (-8) or a unique-word ratio under 0.45 (-14) each cost points. A failing publish is hidden as `quality.low`; on 2026-10-09 0.1.0 scored 68 and was hidden, and 0.1.1 with headings and bullets (86) went public within minutes. Check with `clawhub inspect apitoolcalls`.
+
+Live 2026-10-09: https://clawhub.ai/cowerxdev/apitoolcalls (0.1.1, owner @cowerxdev, moderation clean).
 
 Publication validates owner access, metadata and files, then starts automated
 security checks; releases can remain unavailable during review. No review SLA
