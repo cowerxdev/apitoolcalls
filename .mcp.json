@@ -2,7 +2,7 @@
   "mcpServers": {
     "apitoolcalls": {
       "type": "http",
-      "url": "https://apitoolcalls.com/mcp"
+      "url": "https://apitoolcalls.com/mcp?tools=all"
     }
   }
 }
