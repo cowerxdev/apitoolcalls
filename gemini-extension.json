@@ -1,7 +1,7 @@
 {
   "name": "apitoolcalls",
-  "version": "0.2.4",
-  "description": "90 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
+  "version": "0.2.5",
+  "description": "94 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
   "mcpServers": {
     "apitoolcalls": {
       "httpUrl": "https://apitoolcalls.com/mcp"
